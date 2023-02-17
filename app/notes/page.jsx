@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import PocketBase from "pocketbase";
+import styles from "./Notes.module.css";
 
 export default async function NotesPage() {
   const db = new PocketBase("http://127.0.0.1:8090");
@@ -9,7 +10,7 @@ export default async function NotesPage() {
   return (
     <div>
       <h2>Notes</h2>
-      <div>
+      <div className={styles.grid}>
         {result.items.map((note) => {
           return <Note key={note.id} note={note} />;
         })}
@@ -23,7 +24,7 @@ function Note({ note }) {
 
   return (
     <Link href={`/notes/${id}`}>
-      <div>
+      <div className={styles.note}>
         <h3>{title}</h3>
         <p>{content}</p>
         <p>
