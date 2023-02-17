@@ -12,6 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules
 ;
 ;
 ;
+;
 function RootLayout({ children  }) {
     return __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("html", {
         children: __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("body", {
@@ -24,7 +25,7 @@ function RootLayout({ children  }) {
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "<app/layout.jsx>",
-                                lineNumber: 10,
+                                lineNumber: 11,
                                 columnNumber: 13
                             }, this),
                             __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$link$2e$js__["default"], {
@@ -32,30 +33,30 @@ function RootLayout({ children  }) {
                                 children: "Notes"
                             }, void 0, false, {
                                 fileName: "<app/layout.jsx>",
-                                lineNumber: 13,
+                                lineNumber: 12,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "<app/layout.jsx>",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 11
                     }, this),
                     children
                 ]
             }, void 0, true, {
                 fileName: "<app/layout.jsx>",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "<app/layout.jsx>",
-            lineNumber: 7,
+            lineNumber: 8,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "<app/layout.jsx>",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 }

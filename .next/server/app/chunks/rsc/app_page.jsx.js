@@ -10,7 +10,6 @@ var __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 ;
-;
 function HomePage() {
     return __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("div", {
         children: [
@@ -18,20 +17,20 @@ function HomePage() {
                 children: "Home Page"
             }, void 0, false, {
                 fileName: "<app/page.jsx>",
-                lineNumber: 7,
+                lineNumber: 6,
                 columnNumber: 7
             }, this),
             __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("p", {
                 children: "Some content"
             }, void 0, false, {
                 fileName: "<app/page.jsx>",
-                lineNumber: 8,
+                lineNumber: 7,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "<app/page.jsx>",
-        lineNumber: 6,
+        lineNumber: 5,
         columnNumber: 5
     }, this);
 }

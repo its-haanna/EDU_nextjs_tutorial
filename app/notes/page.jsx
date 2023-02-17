@@ -2,19 +2,18 @@ import React from "react";
 import Link from "next/link";
 import PocketBase from "pocketbase";
 
-async function getNotes() {
+export default async function NotesPage() {
   const db = new PocketBase("http://127.0.0.1:8090");
   const result = await db.collection("posts").getList(1, 10);
-  return result;
-}
-
-export default async function NotesPage() {
-  const notes = await getNotes();
 
   return (
     <div>
       <h2>Notes</h2>
-      {/* <div>{notes}</div> */}
+      <div>
+        {result.items.map((note) => {
+          return <Note key={note.id} note={note} />;
+        })}
+      </div>
     </div>
   );
 }
