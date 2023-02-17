@@ -2,6 +2,6 @@
 node_modules
 .env
 pb_data
-.next
+.next/
 pb_migrations
 !*.go
