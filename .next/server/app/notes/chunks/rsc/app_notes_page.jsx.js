@@ -23,7 +23,7 @@ async function NotesPage() {
                 children: "Notes"
             }, void 0, false, {
                 fileName: "<app/notes/page.jsx>",
-                lineNumber: 17,
+                lineNumber: 11,
                 columnNumber: 7
             }, this),
             __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("div", {
@@ -32,19 +32,19 @@ async function NotesPage() {
                         note: note
                     }, note.id, false, {
                         fileName: "<app/notes/page.jsx>",
-                        lineNumber: 20,
+                        lineNumber: 14,
                         columnNumber: 18
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "<app/notes/page.jsx>",
-                lineNumber: 18,
+                lineNumber: 12,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "<app/notes/page.jsx>",
-        lineNumber: 16,
+        lineNumber: 10,
         columnNumber: 5
     }, this);
 }
@@ -58,32 +58,35 @@ function Note({ note  }) {
                     children: title
                 }, void 0, false, {
                     fileName: "<app/notes/page.jsx>",
-                    lineNumber: 33,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("p", {
                     children: content
                 }, void 0, false, {
                     fileName: "<app/notes/page.jsx>",
-                    lineNumber: 34,
+                    lineNumber: 28,
                     columnNumber: 9
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("p", {
-                    children: created
+                    children: new Date(created).toLocaleString("en-GB", {
+                        timeZone: "UTC",
+                        dateStyle: "medium"
+                    })
                 }, void 0, false, {
                     fileName: "<app/notes/page.jsx>",
-                    lineNumber: 35,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "<app/notes/page.jsx>",
-            lineNumber: 32,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "<app/notes/page.jsx>",
-        lineNumber: 31,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }

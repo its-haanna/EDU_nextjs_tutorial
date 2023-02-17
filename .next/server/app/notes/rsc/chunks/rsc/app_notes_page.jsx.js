@@ -69,7 +69,11 @@ function Note({ note  }) {
                     columnNumber: 9
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$2d$with$2d$next$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__["jsxDEV"]("p", {
-                    children: created
+                    children: new Date(created).toLocaleString("en-GB", {
+                        timeZone: "UTC",
+                        dateStyle: "short",
+                        timeStyle: "short"
+                    })
                 }, void 0, false, {
                     fileName: "<app/notes/page.jsx>",
                     lineNumber: 29,

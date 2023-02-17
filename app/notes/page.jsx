@@ -26,7 +26,13 @@ function Note({ note }) {
       <div>
         <h3>{title}</h3>
         <p>{content}</p>
-        <p>{created}</p>
+        <p>
+          {new Date(created).toLocaleString("en-GB", {
+            timeZone: "UTC",
+            dateStyle: "short",
+            timeStyle: "short",
+          })}
+        </p>
       </div>
     </Link>
   );
