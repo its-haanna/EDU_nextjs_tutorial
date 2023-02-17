@@ -22,6 +22,7 @@ Project made as a part of my Next.js learning process.
 - Next.js
 - React
 - CSS
+- Pocketbase
 
 ### What I learned
 
