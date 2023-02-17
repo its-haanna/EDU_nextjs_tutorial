@@ -4,3 +4,4 @@ node_modules
 pb_data
 .next
 pb_migrations
+!*.go
